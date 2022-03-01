@@ -6,15 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/forever-Liudawang/Babel.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/forever-Liudawang/Babel/issues"
-  },
-  "homepage": "https://github.com/forever-Liudawang/Babel#readme"
+  "dependencies": {
+    "@babel/generator": "^7.17.3",
+    "@babel/parser": "^7.17.3",
+    "@babel/template": "^7.16.7",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0"
+  }
 }
