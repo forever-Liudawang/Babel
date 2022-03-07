@@ -31,6 +31,7 @@ traverse(ast, {
     // }
     const callee = path.get('callee').toString()
     if(targetCalleeName.includes(callee)){
+      console.log('callee', callee)
         const {line,column} = path.node.loc.start;
         path.node.arguments.unshift(types.stringLiteral(`filename:(${line},${column})`))
     }
